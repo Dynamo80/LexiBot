@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 import os
 import cohere
 
+
 load_dotenv()
 
 api = os.getenv('api')
